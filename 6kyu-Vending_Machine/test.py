@@ -13,7 +13,6 @@ class Test(unittest.TestCase):
         self.assertEqual(machine.vend("A01",10.0), "Vending Smarties with 9.40 change.")
         self.assertEqual(machine.vend("Z01",0.41), "Invalid selection! : Money in vending machine = 11.20")
         self.assertEqual(machine.vend("A02",0.40), "Not enough money!")
-        self.assertEqual(machine.vend("B06",4.60), "Cheese and Onion Crisps: Out of stock!")
 
 
 if __name__ == '__main__':
